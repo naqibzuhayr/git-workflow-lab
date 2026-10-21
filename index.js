@@ -1,5 +1,5 @@
 
-const reportTitle = "Capstone Cohort Status Tracker";
+const reportTitle = "Capstone Student Status Tracker";
 
 const submissions = [
   { type: "sponsor", cohort: "Fall 2026", status: "Pending" },
@@ -17,3 +17,4 @@ const pending = submissions.filter(item =>
 console.log(reportTitle);
 console.log(`Cohort: ${activeCohort}`);
 console.log(`Total pending: ${pending.length}`);
+console.log(`Student pending: ${pending.filter(item => item.type === "student").length}`);
