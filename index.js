@@ -1,5 +1,5 @@
 
-const reportTitle = "Capstone Cohort Status Tracker";
+const reportTitle = "Capstone Sponsor Status Tracker";
 
 const submissions = [
   { type: "sponsor", cohort: "Fall 2026", status: "Pending" },
